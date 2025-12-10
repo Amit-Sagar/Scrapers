@@ -7,8 +7,8 @@ const caCertPath = './certs/http_ca.crt';
 const client = new Client({
     node: 'https://localhost:9200',
     auth: {
-        username: 'xxx',
-        password: 'xxxxx',
+        username: 'elastic',
+        password: 'wjAq_zeRg5FzjZWt_tZ0'
     },
     tls: {
         ca: fs.readFileSync(caCertPath),
